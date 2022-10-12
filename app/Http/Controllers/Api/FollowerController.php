@@ -6,7 +6,7 @@ use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use App\Services\FollowerService;
 use App\Services\UserService;
-use App\Interfaces\ServiceFaultException;
+use App\Exceptions\ServiceFaultException;
 
 use Log;
 use App\Models\User;

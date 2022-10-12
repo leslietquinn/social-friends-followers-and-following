@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use App\Services\UserService;
-use App\Interfaces\ServiceFaultException;
+use App\Exceptions\ServiceFaultException;
 
 use Log;
 use Illuminate\Http\Request;
